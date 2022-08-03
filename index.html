@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Exercícios Intro Js - DIO</title>
+</head>
+<body>
+    <main class="main">
+        <h1 class="titulo">
+            Exercícios Introdução ao JavaScript <br> 
+            DIO - prof: <a href="https://github.com/stebsnusch">Stephany Nusch</a>
+        </h1>
+        
+        <!-- CONTADOR -->
+        <h2 class="sub-titulo">Contador até 10 !</h1>
+        <div id="counter" class="contador">
+            <button class="sub" id="subtrair">DIMINUI</button>
+            <span id="currentNumber" class="numero">0</span>
+            <button class="add" id="adicionar">AUMENTA</button>
+        </div>
+
+        <!-- TO-DO LIST -->
+        <h2 class="sub-titulo">Crie Sua Lista de Tarefas</h1>
+        <div id="list">
+            <form id="task-form">
+                <input id="task-input" name="tarefa" type="text" placeholder="Digite aqui sua tarefa" required/>
+                <button id="addTask" type="submit">Adicionar</button>
+            </form>
+            <div id="tasks"></div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo, .titulo a {
+    margin: 50px 0;
+    text-align: center;
+    color: #000;
+}
+
+.titulo a:hover {
+    text-decoration: underline;
+}
+
+.sub-titulo {
+    color: #4400ff;
+    text-shadow: rgba(95, 3, 3, 0.76) 0px 5px 15px;
+}
+
+/* Contador */
+.contador {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 0, 255);
+}
+
+.sub, .add {
+    border: 1px solid rgb(119, 0, 255);
+    background-color: rgb(213, 183, 247);
+    margin: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sub, .add, .numero{
+    color: #000;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+/* To-do List */
+
+#list{
+    margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
